@@ -20,3 +20,23 @@ Please kindly cite the following paper when you use this tool. It would also be 
   pages={533-537},
   doi={10.1109/IES59143.2023.10242497}}
 ```
+
+## How to use this code
+
+installation using pypi:
+
+    pip install -r requirements.txt
+
+don't forget to use colab or isolated virtual environment to make it proper installation and runnable..
+
+running scenario 1:
+
+    python scenario1.py
+
+running scenario 2:
+
+    python scenario2.py
+
+running our approach:
+
+    python aproach.py
