@@ -1,0 +1,33 @@
+{
+  "data_dir_param": "/content/paper_target/",
+  "save_param": "/content/paper_target/data.json",
+  "repo_id_param": "MBZUAI/LaMini-Neo-1.3B",
+  "huggingface_token_param": "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",
+  "openapi_token_param": "your open api key",
+  "openapi_model_param": "text-davinci-003",
+  "chain_type_param": "stuff",
+  "device_param": "cuda",
+  "temperature_param": 0.7,
+  "max_length_param": 500,
+  "pad_token_id_param": 50256,
+  "top_p_param": 0.95,
+  "repetation_penalty_param": 1.15,
+  "chunk_size_param": 1000,
+  "chunk_overlap_param": 200,
+  "huggingface_active": true,
+  "openapi_active": false,
+  "queries": [
+    "who are the authors of the article?",
+    "What is the title from this article?",
+    "What are Theoretical/ Conceptual Framework from this article?",
+    "What are Research Question(s)/ Hypotheses from this article?",
+    "How is the methodology works from this article?",
+    "What is Analysis & Results study from this article?",
+    "What is conclusion from this research?",
+    "What is Implications for Future research from this research?",
+    "What is Implication for practice from this research?",
+    "How many relevancy to the research topic from that article From 1 to 10 ?",
+    "What is inclusion in that article?",
+    "What is justification (if applicable) from that article?"
+  ]
+}
